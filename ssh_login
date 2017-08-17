@@ -4,8 +4,8 @@ import paramiko
 import time
 
 hostname='10.89.90.7'
-username='hillstone'
-password='hillstone'
+username='user'
+password='passwd'
 
 try :
     paramiko.util.log_to_file('paramiko.log')
